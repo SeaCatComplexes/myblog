@@ -20,7 +20,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 0.146.5
-          # hugo extend or not
+          # 是否启用 hugo extend
           extended: true
 
       - name: Build
@@ -29,9 +29,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # 需要生成一个具有 repo 权限的 Personal Access Token
-          # 并将其设置为仓库的 PERSONAL_TOKEN secret
+          # github_token: ${{ secrets.GITHUB_TOKEN }} # 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo
           personal_token: ${{ secrets.HUGO }}
-          external_repository: SeaCatComplexes/SeaCatComplexes.github.io # Set the target repository
+          external_repository: SeaCatComplexes/SeaCatComplexes.github.io # 指定目标仓库
           publish_dir: ./public
-          publish_branch: main # Set the target branch
+          publish_branch: main # 指定目标分支
+          cname: xxx.com # 如果你有自定义域名
