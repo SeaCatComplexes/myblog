@@ -34,4 +34,3 @@ jobs:
           external_repository: SeaCatComplexes/SeaCatComplexes.github.io # Set the target repository
           publish_dir: ./public
           publish_branch: main # Set the target branch
-          cname: xxx.com # If you have a custom domain
