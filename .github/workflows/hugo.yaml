@@ -31,7 +31,7 @@ jobs:
         with:
           # 需要生成一个具有 repo 权限的 Personal Access Token
           # 并将其设置为仓库的 PERSONAL_TOKEN secret
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.HUGO }}
           external_repository: SeaCatComplexes/SeaCatComplexes.github.io # Set the target repository
           publish_dir: ./public
           publish_branch: main # Set the target branch
