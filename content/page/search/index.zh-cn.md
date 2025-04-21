@@ -1,6 +1,6 @@
 ---
-title: 搜索
-description: 搜索
+title: Search
+description: Search
 date: '2019-05-28'
 aliases:
   - search

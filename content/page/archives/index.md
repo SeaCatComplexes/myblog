@@ -1,11 +1,13 @@
 ---
-title: "Archives"
-date: 2019-05-28
-layout: "archives"
-slug: "archives"
+title: Archives
+description: Archives
+date: '2019-05-28'
+aliases:
+  - archives
+license: CC BY-NC-ND
 menu:
-    main:
+    main: 
         weight: -70
-        params: 
+        params:
             icon: archives
 ---
