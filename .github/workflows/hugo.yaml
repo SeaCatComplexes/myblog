@@ -29,7 +29,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 需要生成一个具有 repo 权限的 Personal Access Token
+          # 并将其设置为仓库的 PERSONAL_TOKEN secret
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: SeaCatComplexes/SeaCatComplexes.github.io # Set the target repository
           publish_dir: ./public
           publish_branch: main # Set the target branch
