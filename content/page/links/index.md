@@ -7,6 +7,7 @@ aliases:
 license: CC BY-NC-ND
 menu:
     main: 
+        name: Links
         weight: -50
         params:
             icon: link

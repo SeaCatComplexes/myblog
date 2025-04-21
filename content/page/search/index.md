@@ -7,6 +7,7 @@ aliases:
 license: CC BY-NC-ND
 menu:
     main: 
+        name: Search
         weight: -60
         params:
             icon: search
