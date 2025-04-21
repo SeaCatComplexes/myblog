@@ -34,4 +34,3 @@ jobs:
           external_repository: SeaCatComplexes/SeaCatComplexes.github.io # 指定目标仓库
           publish_dir: ./public
           publish_branch: main # 指定目标分支
-          cname: xxx.com # 如果你有自定义域名
