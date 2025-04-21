@@ -25,9 +25,17 @@ jobs:
 
       - name: Build
         run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing files:"
+          ls -la
+          echo "Building site..."
           hugo --minify
+          echo "Build output:"
           ls -la public/
+          echo "First 5 lines of index.html:"
           cat public/index.html | head -n 5
+          echo "Checking baseURL in config:"
+          grep baseurl hugo.yaml
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
