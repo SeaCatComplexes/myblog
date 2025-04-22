@@ -1,14 +1,13 @@
 ---
-title: Search
-description: Search
-date: '2019-05-28'
-aliases:
-  - search
-license: CC BY-NC-ND
+title: "Search"
+slug: "search"
+layout: "search"
+outputs:
+    - html
+    - json
 menu:
-    main: 
-        name: Search
+    main:
         weight: -60
-        params:
+        params: 
             icon: search
 ---
