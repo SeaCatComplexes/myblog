@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>电子学 on Puff&#39;s Blog</title>
+        <link>http://localhost:1313/tags/%E7%94%B5%E5%AD%90%E5%AD%A6/</link>
+        <description>Recent content in 电子学 on Puff&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Puff</copyright>
+        <lastBuildDate>Mon, 01 Jul 2024 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%94%B5%E5%AD%90%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>模电</title>
+        <link>http://localhost:1313/post/pdf-document/</link>
+        <pubDate>Mon, 01 Jul 2024 10:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/pdf-document/</guid>
+        <description>&lt;h2 id=&#34;双极型晶体三极管和场效应管放大器基础&#34;&gt;双极型晶体三极管和场效应管放大器基础
+&lt;/h2&gt;&lt;p&gt;以下是关于双极型晶体三极管和场效应管放大器基础的学习资料，您可以通过以下链接查看或下载PDF文件：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/files/%e7%ac%ac%e4%ba%94%e7%ab%a0%20%20%e5%8f%8c%e6%9e%81%e5%9e%8b%e6%99%b6%e4%bd%93%e4%b8%89%e6%9e%81%e7%ae%a1%e5%92%8c%e5%9c%ba%e6%95%88%e5%ba%94%e7%ae%a1%e6%94%be%e5%a4%a7%e5%99%a8%e5%9f%ba%e7%a1%80.pdf&#34; &gt;点击查看PDF文件&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pdf嵌入&#34;&gt;PDF嵌入
+&lt;/h3&gt;&lt;p&gt;您也可以直接在页面上查看该文档：&lt;/p&gt;
+&lt;iframe src=&#34;http://localhost:1313/files/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;文档概述&#34;&gt;文档概述
+&lt;/h3&gt;&lt;p&gt;本章节主要介绍：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;双极型晶体三极管的基本原理&lt;/li&gt;
+&lt;li&gt;场效应管的结构与工作原理&lt;/li&gt;
+&lt;li&gt;各类放大器电路的设计与分析&lt;/li&gt;
+&lt;li&gt;实际应用中的注意事项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望这份资料对您的学习有所帮助！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
