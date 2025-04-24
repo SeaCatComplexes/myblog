@@ -50,17 +50,18 @@ params:
 
         gitalk:
             owner: SeaCatComplexes
-            admin: "SeaCatComplexes"
+            admin: SeaCatComplexes
             repo: myblog-comments
-            clientID: "Ov23li0oG8xUAIvrnJZV"
-            clientSecret: "64ebdcc110a22a2124037b261bf4b991ca7ac866"
-            proxy: "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+            clientID: Ov23li0oG8xUAIvrnJZV
+            clientSecret: 64ebdcc110a22a2124037b261bf4b991ca7ac866
+            proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
             createIssueManually: true
             enableHotKey: true
-            id: 'gitalk'
-            title: 'Comments'
+            id: location.pathname
+            title: location.pathname
             perPage: 15
-            pagerDirection: 'last'
+            pagerDirection: last
+            distractionFreeMode: false
 
         disqusjs:
             shortname:
