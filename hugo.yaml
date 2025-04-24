@@ -54,7 +54,7 @@ params:
             repo: myblog-comments
             clientID: "Ov23li0oG8xUAIvrnJZV"
             clientSecret: "64ebdcc110a22a2124037b261bf4b991ca7ac866"
-            proxy: "https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token"
+            proxy: "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
 
         disqusjs:
             shortname:
