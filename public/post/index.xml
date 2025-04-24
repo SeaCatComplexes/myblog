@@ -1,46 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Puff&#39;s Blog</title>
-        <link>http://localhost:1313/post/</link>
-        <description>Recent content in Posts on Puff&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>Puff</copyright>
-        <lastBuildDate>Wed, 23 Apr 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>模电</title>
-        <link>http://localhost:1313/post/%E6%A8%A1%E7%94%B5/</link>
-        <pubDate>Wed, 23 Apr 2025 10:00:00 +0800</pubDate>
-        
-        <guid>http://localhost:1313/post/%E6%A8%A1%E7%94%B5/</guid>
-        <description>&lt;h2 id=&#34;概述&#34;&gt;概述
-&lt;/h2&gt;&lt;p&gt;《模拟电子电路及技术基础》的学习笔记，由邓军老师主讲，持续更新中&lt;/p&gt;
-&lt;h2 id=&#34;第二章-集成运算放大器的基本应用电路&#34;&gt;第二章 集成运算放大器的基本应用电路
-&lt;/h2&gt;&lt;h3 id=&#34;简介&#34;&gt;简介
-&lt;/h3&gt;&lt;p&gt;这一章以运放为基础，从理想运放开始，引入了电阻、电容负反馈等，介绍了实现各种运算的放大器&lt;/p&gt;
-&lt;h3 id=&#34;笔记&#34;&gt;笔记
-&lt;/h3&gt;&lt;iframe src=&#34;http://localhost:1313/files/第二章%20集成运算放大器的基本应用电路.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/files/%e7%ac%ac%e4%ba%8c%e7%ab%a0%20%e9%9b%86%e6%88%90%e8%bf%90%e7%ae%97%e6%94%be%e5%a4%a7%e5%99%a8%e7%9a%84%e5%9f%ba%e6%9c%ac%e5%ba%94%e7%94%a8%e7%94%b5%e8%b7%af.pdf&#34; &gt; [Download]   第二章 集成运算放大器的基本应用电路&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;第三章-基于集成运放和rc反馈网络的有源滤波器&#34;&gt;第三章 基于集成运放和RC反馈网络的有源滤波器
-&lt;/h2&gt;&lt;h3 id=&#34;简介-1&#34;&gt;简介
-&lt;/h3&gt;&lt;p&gt;这一章讲的非常快，要求也不是很高，只需要能识别基本的滤波器电路即可&lt;/p&gt;
-&lt;h3 id=&#34;笔记-1&#34;&gt;笔记
-&lt;/h3&gt;&lt;iframe src=&#34;http://localhost:1313/files/第三章%20基于集成运放和RC反馈网络的有源滤波器.pdf&#34; width=&#34;100% &#34;height=&#34;600px&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/files/%e7%ac%ac%e4%b8%89%e7%ab%a0%20%e5%9f%ba%e4%ba%8e%e9%9b%86%e6%88%90%e8%bf%90%e6%94%be%e5%92%8cRC%e5%8f%8d%e9%a6%88%e7%bd%91%e7%bb%9c%e7%9a%84%e6%9c%89%e6%ba%90%e6%bb%a4%e6%b3%a2%e5%99%a8.pdf&#34; &gt; [Download]   第三章 基于集成运放和RC反馈网络的有源滤波器&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;第四章-常用半导体器件原理&#34;&gt;第四章 常用半导体器件原理
-&lt;/h2&gt;&lt;h3 id=&#34;简介-2&#34;&gt;简介
-&lt;/h3&gt;&lt;p&gt;本章介绍了各类半导体器件的基本原理，包括二极管、晶体管、场效应管等基本元件的结构与特性&lt;/p&gt;
-&lt;h3 id=&#34;笔记-2&#34;&gt;笔记
-&lt;/h3&gt;&lt;iframe src=&#34;http://localhost:1313/files/第四章%20常用半导体器件原理.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/files/%e7%ac%ac%e5%9b%9b%e7%ab%a0%20%e5%b8%b8%e7%94%a8%e5%8d%8a%e5%af%bc%e4%bd%93%e5%99%a8%e4%bb%b6%e5%8e%9f%e7%90%86.pdf&#34; &gt; [Download]   第四章 常用半导体器件原理&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;第五章-双极型晶体三极管和场效应管放大器基础&#34;&gt;第五章 双极型晶体三极管和场效应管放大器基础
-&lt;/h2&gt;&lt;h3 id=&#34;简介-3&#34;&gt;简介
-&lt;/h3&gt;&lt;p&gt;本章从偏置电路开始，探讨了晶体三极管和场效应管的放大电路，分析了各种放大器的工作原理与设计方法&lt;/p&gt;
-&lt;h3 id=&#34;笔记-3&#34;&gt;笔记
-&lt;/h3&gt;&lt;iframe src=&#34;http://localhost:1313/files/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/files/%e7%ac%ac%e4%ba%94%e7%ab%a0%20%20%e5%8f%8c%e6%9e%81%e5%9e%8b%e6%99%b6%e4%bd%93%e4%b8%89%e6%9e%81%e7%ae%a1%e5%92%8c%e5%9c%ba%e6%95%88%e5%ba%94%e7%ae%a1%e6%94%be%e5%a4%a7%e5%99%a8%e5%9f%ba%e7%a1%80.pdf&#34; &gt; [Download]   第五章 双极型晶体三极管和场效应管放大器基础&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Puff's Blog</title><link>https://SeaCatComplexes.github.io/post/</link><description>Recent content in Posts on Puff's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Puff</copyright><lastBuildDate>Wed, 23 Apr 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://SeaCatComplexes.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>模电</title><link>https://SeaCatComplexes.github.io/post/%E6%A8%A1%E7%94%B5/</link><pubDate>Wed, 23 Apr 2025 10:00:00 +0800</pubDate><guid>https://SeaCatComplexes.github.io/post/%E6%A8%A1%E7%94%B5/</guid><description>&lt;h2 id="概述">概述
+&lt;/h2>&lt;p>《模拟电子电路及技术基础》的学习笔记，由邓军老师主讲，持续更新中&lt;/p>
+&lt;h2 id="第二章-集成运算放大器的基本应用电路">第二章 集成运算放大器的基本应用电路
+&lt;/h2>&lt;h3 id="简介">简介
+&lt;/h3>&lt;p>这一章以运放为基础，从理想运放开始，引入了电阻、电容负反馈等，介绍了实现各种运算的放大器&lt;/p>
+&lt;h3 id="笔记">笔记
+&lt;/h3>&lt;iframe src="https://SeaCatComplexes.github.io/files/第二章%20集成运算放大器的基本应用电路.pdf" width="100%" height="600px">&lt;/iframe>
+&lt;p>&lt;a class="link" href="https://SeaCatComplexes.github.io/files/%e7%ac%ac%e4%ba%8c%e7%ab%a0%20%e9%9b%86%e6%88%90%e8%bf%90%e7%ae%97%e6%94%be%e5%a4%a7%e5%99%a8%e7%9a%84%e5%9f%ba%e6%9c%ac%e5%ba%94%e7%94%a8%e7%94%b5%e8%b7%af.pdf" > [Download] 第二章 集成运算放大器的基本应用电路&lt;/a>&lt;/p>
+&lt;h2 id="第三章-基于集成运放和rc反馈网络的有源滤波器">第三章 基于集成运放和RC反馈网络的有源滤波器
+&lt;/h2>&lt;h3 id="简介-1">简介
+&lt;/h3>&lt;p>这一章讲的非常快，要求也不是很高，只需要能识别基本的滤波器电路即可&lt;/p>
+&lt;h3 id="笔记-1">笔记
+&lt;/h3>&lt;iframe src="https://SeaCatComplexes.github.io/files/第三章%20基于集成运放和RC反馈网络的有源滤波器.pdf" width="100% "height="600px">&lt;/iframe>
+&lt;p>&lt;a class="link" href="https://SeaCatComplexes.github.io/files/%e7%ac%ac%e4%b8%89%e7%ab%a0%20%e5%9f%ba%e4%ba%8e%e9%9b%86%e6%88%90%e8%bf%90%e6%94%be%e5%92%8cRC%e5%8f%8d%e9%a6%88%e7%bd%91%e7%bb%9c%e7%9a%84%e6%9c%89%e6%ba%90%e6%bb%a4%e6%b3%a2%e5%99%a8.pdf" > [Download] 第三章 基于集成运放和RC反馈网络的有源滤波器&lt;/a>&lt;/p>
+&lt;h2 id="第四章-常用半导体器件原理">第四章 常用半导体器件原理
+&lt;/h2>&lt;h3 id="简介-2">简介
+&lt;/h3>&lt;p>本章介绍了各类半导体器件的基本原理，包括二极管、晶体管、场效应管等基本元件的结构与特性&lt;/p>
+&lt;h3 id="笔记-2">笔记
+&lt;/h3>&lt;iframe src="https://SeaCatComplexes.github.io/files/第四章%20常用半导体器件原理.pdf" width="100%" height="600px">&lt;/iframe>
+&lt;p>&lt;a class="link" href="https://SeaCatComplexes.github.io/files/%e7%ac%ac%e5%9b%9b%e7%ab%a0%20%e5%b8%b8%e7%94%a8%e5%8d%8a%e5%af%bc%e4%bd%93%e5%99%a8%e4%bb%b6%e5%8e%9f%e7%90%86.pdf" > [Download] 第四章 常用半导体器件原理&lt;/a>&lt;/p>
+&lt;h2 id="第五章-双极型晶体三极管和场效应管放大器基础">第五章 双极型晶体三极管和场效应管放大器基础
+&lt;/h2>&lt;h3 id="简介-3">简介
+&lt;/h3>&lt;p>本章从偏置电路开始，探讨了晶体三极管和场效应管的放大电路，分析了各种放大器的工作原理与设计方法&lt;/p>
+&lt;h3 id="笔记-3">笔记
+&lt;/h3>&lt;iframe src="https://SeaCatComplexes.github.io/files/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf" width="100%" height="600px">&lt;/iframe>
+&lt;p>&lt;a class="link" href="https://SeaCatComplexes.github.io/files/%e7%ac%ac%e4%ba%94%e7%ab%a0%20%20%e5%8f%8c%e6%9e%81%e5%9e%8b%e6%99%b6%e4%bd%93%e4%b8%89%e6%9e%81%e7%ae%a1%e5%92%8c%e5%9c%ba%e6%95%88%e5%ba%94%e7%ae%a1%e6%94%be%e5%a4%a7%e5%99%a8%e5%9f%ba%e7%a1%80.pdf" > [Download] 第五章 双极型晶体三极管和场效应管放大器基础&lt;/a>&lt;/p></description></item></channel></rss>
