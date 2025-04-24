@@ -50,10 +50,12 @@ params:
 
         gitalk:
             owner: SeaCatComplexes
-            admin: SeaCatComplexes
+            admin: ["SeaCatComplexes"]
             repo: myblog-comments
             clientID: env_GITALK_CLIENT_ID
             clientSecret: env_GITALK_CLIENT_SECRET
+            distractionFreeMode: true
+            createIssueManually: false
             proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token
 
         disqusjs:
