@@ -52,8 +52,8 @@ params:
             owner: SeaCatComplexes
             admin: ["SeaCatComplexes"]
             repo: myblog-comments
-            clientID: env_GITALK_CLIENT_ID
-            clientSecret: env_GITALK_CLIENT_SECRET
+            clientID: "Ov23li0oG8xUAIvrnJZV"        # 请替换为您的 GitHub OAuth App 的 Client ID
+            clientSecret: "64ebdcc110a22a2124037b261bf4b991ca7ac866" # 请替换为您的 GitHub OAuth App 的 Client Secret
             distractionFreeMode: true
             createIssueManually: false
             proxy: "https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token"
