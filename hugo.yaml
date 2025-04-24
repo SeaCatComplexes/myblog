@@ -132,6 +132,7 @@ params:
     widgets:
         homepage:
             - type: search
+            - type: update
             - type: archives
               params:
                   limit: 5

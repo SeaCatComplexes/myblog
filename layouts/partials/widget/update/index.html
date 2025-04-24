@@ -1,0 +1,47 @@
+<div class="widget update">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+    </div>
+    <h2 class="widget-title">{{ i18n "widget.update.title" | default "Updates" }}</h2>
+    <div class="widget-update">
+        <ul class="widget-list">
+            {{ range .Params.updates }}
+                <li>
+                    <div class="update-date">{{ .date }}</div>
+                    <div class="update-content">{{ .content }}</div>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+<style>
+    .widget.update .widget-update ul.widget-list {
+        padding-left: 0;
+    }
+    
+    .widget.update .widget-update li {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--card-separator-color);
+    }
+    
+    .widget.update .widget-update li:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .widget.update .update-date {
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: var(--accent-color);
+        margin-bottom: 5px;
+    }
+    
+    .widget.update .update-content {
+        font-size: 0.9rem;
+    }
+</style> 

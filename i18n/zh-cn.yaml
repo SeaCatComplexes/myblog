@@ -1,0 +1,11 @@
+widget:
+    update:
+        title: 网站更新
+    archives:
+        title: 归档
+    search:
+        title: 搜索
+    categories:
+        title: 分类
+    tag-cloud:
+        title: 标签云 

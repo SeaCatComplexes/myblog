@@ -1,0 +1,64 @@
+<div class="widget update">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+    </div>
+    <h2 class="widget-title">更新</h2>
+    <div class="widget-update">
+        <ul class="widget-list">
+            {{ $dataFile := "update/updates.yaml" }}
+            {{ if fileExists $dataFile }}
+                {{ $data := readFile $dataFile | unmarshal }}
+                {{ range $data.updates }}
+                    <li>
+                        <div class="update-date">{{ .date }}</div>
+                        <div class="update-content">{{ .content }}</div>
+                    </li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+<style>
+    .widget.update .widget-title {
+        font-size: var(--widget-title-font-size);
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: var(--body-font-family);
+        margin-bottom: var(--widget-title-margin);
+    }
+    
+    .widget.update .widget-update ul.widget-list {
+        padding-left: 0;
+        list-style-type: none;
+    }
+    
+    .widget.update .widget-update li {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--card-separator-color);
+    }
+    
+    .widget.update .widget-update li:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .widget.update .update-date {
+        font-weight: 400;
+        font-size: var(--font-size-sm);
+        font-family: var(--body-font-family);
+        color: var(--card-text-color-secondary);
+        margin-bottom: 5px;
+    }
+    
+    .widget.update .update-content {
+        font-size: var(--font-size-sm);
+        font-family: var(--body-font-family);
+        color: var(--card-text-color-main);
+        line-height: var(--line-height);
+    }
+</style> 
