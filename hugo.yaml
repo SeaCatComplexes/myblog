@@ -46,7 +46,15 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: gitalk
+
+        gitalk:
+            owner: SeaCatComplexes
+            admin: SeaCatComplexes
+            repo: myblog-comments
+            clientID: "Ov23ctZdNcg2YIJqzE24"
+            clientSecret: "cebd21e7a3f8d598c9df10b0dc19b13205304414"
+            proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token
 
         disqusjs:
             shortname:
@@ -110,14 +118,6 @@ params:
             darkTheme:
             reactionsEnabled: 1
             emitMetadata: 0
-
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-            proxy:
 
         cusdis:
             host:
