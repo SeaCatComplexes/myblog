@@ -4,7 +4,7 @@ description: "2025春——《模拟电子电路及技术基础》"
 date: 2025-04-23T10:00:00+08:00
 image: 
 categories:
-    - 学习资料
+    - 笔记
 tags:
     - 笔记
 ---
@@ -21,9 +21,9 @@ tags:
 
 ### 笔记
 
-<iframe src="/files/第二章%20集成运算放大器的基本应用电路.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/模电/第二章%20集成运算放大器的基本应用电路.pdf" width="100%" height="600px"></iframe>
 
-[ [Download]   第二章 集成运算放大器的基本应用电路](/files/第二章%20集成运算放大器的基本应用电路.pdf)
+[ [Download]   第二章 集成运算放大器的基本应用电路](/files/模电/第二章%20集成运算放大器的基本应用电路.pdf)
 
 ## 第三章 基于集成运放和RC反馈网络的有源滤波器
 
@@ -33,9 +33,9 @@ tags:
 
 ### 笔记
 
-<iframe src="/files/第三章%20基于集成运放和RC反馈网络的有源滤波器.pdf" width="100% "height="600px"></iframe>
+<iframe src="/files/模电/第三章%20基于集成运放和RC反馈网络的有源滤波器.pdf" width="100% "height="600px"></iframe>
 
-[ [Download]   第三章 基于集成运放和RC反馈网络的有源滤波器](/files/第三章%20基于集成运放和RC反馈网络的有源滤波器.pdf)
+[ [Download]   第三章 基于集成运放和RC反馈网络的有源滤波器](/files/模电/第三章%20基于集成运放和RC反馈网络的有源滤波器.pdf)
 
 ## 第四章 常用半导体器件原理
 
@@ -45,9 +45,9 @@ tags:
 
 ### 笔记
 
-<iframe src="/files/第四章%20常用半导体器件原理.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/模电/第四章%20常用半导体器件原理.pdf" width="100%" height="600px"></iframe>
 
-[ [Download]   第四章 常用半导体器件原理](/files/第四章%20常用半导体器件原理.pdf)
+[ [Download]   第四章 常用半导体器件原理](/files/模电/第四章%20常用半导体器件原理.pdf)
 
 ## 第五章 双极型晶体三极管和场效应管放大器基础
 
@@ -57,7 +57,7 @@ tags:
 
 ### 笔记
 
-<iframe src="/files/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/模电/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf" width="100%" height="600px"></iframe>
 
-[ [Download]   第五章 双极型晶体三极管和场效应管放大器基础](/files/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf)
+[ [Download]   第五章 双极型晶体三极管和场效应管放大器基础](/files/模电/第五章%20%20双极型晶体三极管和场效应管放大器基础.pdf)
 
